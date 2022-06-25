@@ -1,6 +1,7 @@
 package com.triple.backend.domain;
 
 import java.util.List;
+import java.util.UUID;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -20,6 +21,6 @@ public class Place {
 	private List<Review> reviews;
 	
 	@Id
-	private String placeId;
+	private UUID placeId;
 
 }

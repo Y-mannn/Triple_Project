@@ -1,5 +1,7 @@
 package com.triple.backend.domain;
 
+import java.util.UUID;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -25,7 +27,7 @@ public class Review {
 	private Place place;
 
 	@Id
-	private String reviewId;
+	private UUID reviewId;
 	
 	@NotNull
 	private String content;
