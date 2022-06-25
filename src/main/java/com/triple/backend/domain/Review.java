@@ -33,5 +33,5 @@ public class Review {
 	private String content;
 	
 	@NotNull
-	private String[] attachedPhotoIds;
+	private UUID[] attachedPhotoIds;
 }
